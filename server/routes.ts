@@ -24,7 +24,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       return res.sendStatus(500);
     }
   });
-
+// everything in typescript
   // Get upload URL for photos
   app.post("/api/photos/upload", async (req, res) => {
     try {
