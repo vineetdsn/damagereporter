@@ -9,6 +9,7 @@ declare module 'http' {
     rawBody: unknown
   }
 }
+// full of errors
 app.use(express.json({
   verify: (req, _res, buf) => {
     req.rawBody = buf;
