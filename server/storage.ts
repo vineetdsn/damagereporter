@@ -1,5 +1,6 @@
 import { type Report, type InsertReport } from "@shared/schema";
 import { randomUUID } from "crypto";
+// Need change intypescript
 
 export interface IStorage {
   getReport(id: string): Promise<Report | undefined>;
