@@ -1,5 +1,6 @@
 import { Report } from "@shared/schema";
 import { ReportGenerator } from "./reportGenerator";
+// Need change intypescript
 
 export class EmailService {
   private reportGenerator = new ReportGenerator();
