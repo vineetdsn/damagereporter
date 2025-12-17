@@ -4,7 +4,7 @@ import { ReportGenerator } from "./reportGenerator";
 
 export class EmailService {
   private reportGenerator = new ReportGenerator();
-
+// this is
   async sendReport(report: Report, recipientEmail: string, includeAttachment: boolean = true): Promise<void> {
     // In a real implementation, you would use a service like SendGrid, AWS SES, or similar
     // For now, we'll log the email details
