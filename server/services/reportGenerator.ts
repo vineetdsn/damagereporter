@@ -1,7 +1,6 @@
 import { Report } from "@shared/schema";
 import PDFKit from "pdfkit";
 import { format } from "date-fns";
-// Need change intypescript
 
 export class ReportGenerator {
   async generatePDF(report: Report): Promise<Buffer> {
