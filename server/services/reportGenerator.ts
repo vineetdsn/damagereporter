@@ -1,7 +1,7 @@
 import { Report } from "@shared/schema";
 import PDFKit from "pdfkit";
 import { format } from "date-fns";
-
+// this
 export class ReportGenerator {
   async generatePDF(report: Report): Promise<Buffer> {
     return new Promise((resolve, reject) => {
