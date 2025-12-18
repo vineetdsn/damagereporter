@@ -10,7 +10,7 @@ export interface IStorage {
   createReport(report: InsertReport): Promise<Report>;
   updateReportStatus(id: string, status: string): Promise<Report | undefined>;
 }
-
+//storage
 export class MemStorage implements IStorage {
   private reports: Map<string, Report>;
 
