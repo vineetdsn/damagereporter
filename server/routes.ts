@@ -5,7 +5,7 @@ import { insertReportSchema } from "@shared/schema";
 import { ObjectStorageService, ObjectNotFoundError } from "./objectStorage";
 import { ReportGenerator } from "./services/reportGenerator";
 import { EmailService } from "./services/emailService";
-
+// jj
 export async function registerRoutes(app: Express): Promise<Server> {
   const objectStorageService = new ObjectStorageService();
   const reportGenerator = new ReportGenerator();
